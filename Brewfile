@@ -24,5 +24,6 @@ cask "jetbrains-toolbox"
 
 brew "docker"
 cask "docker"
+brew "docker-compose"
 brew "packer"
 brew "heroku"
