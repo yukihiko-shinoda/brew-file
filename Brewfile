@@ -1,30 +1,40 @@
 
 # tap repositories and their packages
-cask_args appdir: "/Applications"
-tap homebrew/core
-brew mas
 
-tap homebrew/bundle
+tap 'homebrew/core'
+brew 'autoconf'
+brew 'docker'
+brew 'docker-compose'
+brew 'gdbm'
+brew 'git'
+brew 'heroku'
+brew 'mas'
+brew 'openssl'
+brew 'packer'
+brew 'pipenv'
+brew 'pkg-config'
+brew 'pyenv'
+brew 'python'
+brew 'readline'
+brew 'sqlite'
+brew 'vim'
+brew 'xz'
+brew 'zsh'
+brew 'zsh-completions'
 
-tap homebrew/cask
+tap 'homebrew/bundle'
 
-tap rcmdnk/file
-brew brew-file
+tap 'homebrew/cask'
+cask 'atom'
+cask 'github'
+cask 'iterm2'
+cask 'local-by-flywheel'
 
-cask "google-chrome"
-cask "slack"
-cask "github"
-brew "git"
-brew "vim"
-brew "zsh"
-brew "zsh-completions"
-cask "iterm2"
-cask "atom"
-cask "jetbrains-toolbox"
+tap 'rcmdnk/file'
+brew 'brew-file'
 
-brew "docker"
-cask "docker"
-brew "docker-compose"
-brew "packer"
-brew "heroku"
-cask "local-by-flywheel"
+# Other Cask applications
+cask 'docker'
+cask 'google-chrome'
+cask 'jetbrains-toolbox'
+cask 'slack'
